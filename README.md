@@ -30,7 +30,7 @@ This Django Notes application containerizes a complete microservices architectur
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/LondheShubham153/django-notes-app.git
+https://github.com/thesayam7/django-notes-app-containeralized.git
 cd django-notes-app
 ```
 

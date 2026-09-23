@@ -1,0 +1,36 @@
+# --- Critical: Do NOT ignore mynotes/build ---
+# (React build files must remain tracked so Docker/Django finds index.html on a clean clone)
+
+# MySQL / Database local data
+data/
+db.sqlite3
+*.sqlite3
+
+# Python caches and artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+mynotes/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
